@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+   <link rel="shortcut icon" href="images/logo.png" type="image/x-icon">
+    <Style>
+        input:focus{
+            font-weight: 700;
+            font-size: 20px;
+            color:goldenrod;
+        }
+        h1::before{
+            content: "hello";
+            color:burlywood;
+            font-size: 10px;
+        }
+        h1::after{
+            content: "bye";
+            color: cyan;
+            background-color: darkblue;
+
+        }
+        p::before{
+            content:"❤";
+        }
+        .container{
+            background-color: red;
+        }
+        div{
+            height: 100px;
+            width:100px;
+        }
+        #first{
+            background-color: fuchsia;
+        }
+        #second{
+            background-color: greenyellow;
+
+        }
+        #third{
+            background-color: hotpink;
+        }
+        table{
+            border-collapse: collapse;
+        }
+        td,th{
+            border:3px solid darkorange;
+            padding: 0 10px;
+        }
+        nav{
+            height: 50px;
+            background-color: lightgrey;
+            line-height: 30px;
+        }
+        nav li:hover{
+          background-color: red;
+        }
+        nav li{
+            list-style:none;
+            
+            padding: 15px;
+        }
+        
+        nav > ul > li{
+            float: left;
+        }
+        nav a{
+            text-decoration: none;
+            color:darkblue;
+
+        }
+        .dropdown{
+            display: none;
+        }
+       nav > ul > li:hover > ul{
+           display: block;
+       }
+    </Style>
+</head>
+<body>
+    <input name="email" type="text">
+    <h1>sonju sha</h1>
+    <h1>sonu saha</h1>
+    <p>lamia</p>
+    <p>odors</p>
+    <p>tumpa</p>
+    <p>rumpa</p>
+    <p>jhumpa</p>
+    <p>kumpa</p>
+    <section>
+        <h1>css position static relative absolute fixed</h1>
+    </section>
+    <section class="container">
+        <div id="first"> </div>
+        <div id="second">  </div>
+        <div id="third">   </div>
+    </section>
+    <div class="audio">
+        <audio controls src="audio/got.mp3"> audio</audio>
+       
+    </div>
+
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/UH11dOi2Has" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>company name</th>
+                <th>Price</th>
+                
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Sonju saha</td>
+                <td>Pulsur 150 cc</td>
+                <td>200000</td>
+            </tr>
+            <tr>
+                <td>sonju saha</td>
+                <td>KTM 125 cc</td>
+                <td>500000</td>
+            </tr>
+         <tr>
+                <td>sonju saha</td>
+                <td>R15 Bike</td>
+                <td>500000</td> 
+            </tr>
+        </tbody>
+    </table>
+
+    <form action="">
+        <p>Name: <input type="text"> </p>
+        <p>Telephone: <input type="number" name="" id=""> </p>
+        <p>Email: <input type="email" name="" id=""> </p>
+    </form>
+    <fieldset>
+        <legend>Select your bike</legend>
+        <p> <label for="pulser"><input type="radio" name="bike" id="pulser">Pulsur Bike</label></p>
+        <p> <label for="ktm"><input type="radio" name="bike" id="ktm">Ktm 125 Bike</label></p>
+        <p> <label for="r15"><input type="radio" name="bike" id="r15">R15 bike</label></p>
+    </fieldset>
+    <fieldset>
+        <legend>Select your passion</legend>
+        <p> <label for=""><input type="checkbox" name="" id="">Web devlopment</label> </p>
+    </fieldset>
+    <button type="submit">submit your choice</button>
+
+    <h1 class="" id="" style="color:chartreuse" title="Read next">Blog 2</h1>
+
+    <nav>
+        <ul>
+            <li> <a href="index.html">Home </a>   </li>
+           
+                        <li> <a href="index.html">About </a>   </li>
+                        <li> <a href="index.html">Menu</a>   </li>
+                        <ul class="dropdown">
+                            <li> <a href="index.html">sonju</a>
+                                <li> <a href="index.html">sonju</a>
+                                    <li> <a href="index.html">sonju</a>
+                                    </ul>
+                                
+
+                        <li> <a href="index.html">Contact us </a>   </li>
+                    </ul>
+                            
+                 </li>
+         
+    </nav>
+
+
+
+    
+</body>
+</html>
